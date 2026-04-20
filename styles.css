@@ -78,6 +78,16 @@ main {
   padding-top: 0.4rem;
 }
 
+.page-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.footer-link {
+  font-size: 1rem;
+}
+
 .section {
   display: grid;
   grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
@@ -236,6 +246,11 @@ main {
 
   h1 {
     white-space: normal;
+  }
+
+  .page-footer {
+    justify-content: flex-start;
+    padding-top: 2rem;
   }
 
   .prose-card,
